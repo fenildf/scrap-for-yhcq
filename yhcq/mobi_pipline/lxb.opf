@@ -13,7 +13,7 @@
   <x-metadata/>
  </metadata>
  <manifest>
-  <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  <item id="ncx" href="out.ncx" media-type="application/x-dtbncx+xml"/>
   <item id="cimage" media-type="image/jpeg" href="cover.jpg" properties="cover-image"/>
   <item id="preface" href="preface.html" media-type="application/xhtml+xml"/>
 
