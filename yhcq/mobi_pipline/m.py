@@ -19,8 +19,8 @@ OPF_OUTPUT = 'out.opf'
 tree = etree.parse('lxb.opf')
 root = tree.getroot()
 
-infos = json.loads(open("volumes.json").readline())
-print(type(infos))
+infos = json.loads(open(sys.argv[1]).readline())
+#print(type(infos))
 
 book_info = {
     "title":infos['volume'],

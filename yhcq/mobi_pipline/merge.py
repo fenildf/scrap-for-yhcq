@@ -29,8 +29,8 @@ TITLE_TEMPLATE = """  <header>
 AUTHOR_TEMPLATE = "<h5>{author}</h5>"
 CONTENT_TEMPLATE = """<article>{content}</article>"""
 
-volume = open("volumes.json")
-content = open("contents.json")
+volume = open(sys.argv[1]) #"2015年第2期.volume.json")
+content = open(sys.argv[2]) #"2015年第2期.content.json")
 contents = content.readlines()
 volumes = json.loads(volume.readline())
 volume.close()
