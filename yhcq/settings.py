@@ -19,7 +19,7 @@ ITEM_PIPELINES = {
     'yhcq.pipelines.YhcqPipeline': 800,
 }
 
-DOWNLOAD_DELAY = 2
+DOWNLOAD_DELAY = 10 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'yhcq (+http://www.yourdomain.com)'

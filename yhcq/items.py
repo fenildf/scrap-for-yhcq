@@ -19,9 +19,11 @@ class YhcqItem(scrapy.Item):
     image_urls = scrapy.Field()
     images = scrapy.Field()
     url = scrapy.Field()
+    volumename = scrapy.Field()
 
 class YhcqVolumeItem(scrapy.Item):
     # define the fields for your item here like:
     volume = scrapy.Field()
     intro = scrapy.Field()
     preface = scrapy.Field()
+    volumename = scrapy.Field()
